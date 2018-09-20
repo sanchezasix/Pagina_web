@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+p{
+    text-align: center;
+}
+
+.alinia {
+    display: inline-block;
+    border: 1px;
+    /* width: 100%; */
+    margin  10px;
+    padding: 10px;
+    
+}
+
+.des p{
+    width: 250px;
+    font-family: "Georgia", serif;
+    font-size: 1em;
+}
+
+.header{
+    padding: 60px;
+    background-color: #ffd480;
+    background-image: url(img/computer.png);
+    background-repeat: no-repeat;
+    
+}
+
+.header h1{
+    font-family: Georgia;
+    font-size: 40px;
+    
+    
+}
+
+.margen{
+    
+    margin-left: 500px;
+}
+
+.margen2{
+    
+    margin-left: 200px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.nombre{
+    margin-left: 100px;
+}
+
+img {
+    width: 250px;
+    background-size: contain;
+}
+
+#menua {
+    
+    overflow: hidden;
+    background-color: #990000;
+    
+}
+
+nav#menua a{
+    
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menub {
+    
+    overflow: hidden;
+    background-color: #737373
+;
+    
+}
+
+nav#menub a{
+    
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+nav#menua a:hover {
+    
+    background-color: black;
+    color: white;
+}
+
+nav#menub a:hover {
+    
+    background-color: white;
+    color: black;
+}
+
+form{
+    
+    margin: 40px;
+}
+
+legend{
+    font-size: 20px;
+    margin: 10px;
+    padding: 8px;
+}
+input {
+    
+    margin: 10px;
+    padding: 8px;
+    border: 5px solid black;
+}
+
+fieldset {
+    
+    margin: 10px;
+    padding: 50px;
+    border: 5px solid black;
+}
+
+textarea {
+    
+    width: 500px;
+    height: 100px;
+    vertical-align: top;
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid black;
+}
